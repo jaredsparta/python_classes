@@ -10,11 +10,11 @@ class Dog:
         self.animal_kind = "Fish"
         return "woof!"
 
-jeff = Dog("Jeff")
+jeff = Dog("Jeff", "white")
 
 print(jeff.animal_kind)
 jeff.bark()
 print(jeff.animal_kind)
 
-fido = Dog("Fido")
+fido = Dog("Fido", "brown")
 print(fido.name)
