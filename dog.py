@@ -1,8 +1,9 @@
 class Dog:
     # This is a class variable
-    animal_kind = "Canine"
-    def __init__(self, name):
+    def __init__(self, name, colour):
         self.name = name
+        self.colour = colour
+        self.animal_kind = "Canine"
 
     def bark(self):
         # Calling this function, changes the class variable
@@ -16,5 +17,4 @@ jeff.bark()
 print(jeff.animal_kind)
 
 fido = Dog("Fido")
-print(fido.animal_kind)
-
+print(fido.name)
